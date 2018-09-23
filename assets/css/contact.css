@@ -15,12 +15,16 @@ body {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #ffffff;
     border-color: #cccccc;
     border-width: 0px 0px 1px 0px;
     border-bottom-style: outset;
-    margin-bottom: 30px;
     height: 74px;
+    margin-bottom: 30px;
 }
 
 .nav-container {
@@ -51,7 +55,6 @@ body {
     line-height: 50px;
     padding: 0px 20px 0px 20px;
     border-width: 0px;
-    border-right-width: 1px;
     border-style: outset;
     margin-top: 12px;
     transition: all 0.3s;
@@ -77,11 +80,11 @@ body {
     color: #777777;
     height: 100%;
     float: right;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 50px;
     padding: 0px 20px 0px 20px;
     border-width: 0px;
-    border-left-width: 1px;
+/*     border-left-width: 1px; */
     border-style: outset;
     margin-top: 12px;
     transition: all 0.3s;
@@ -97,6 +100,8 @@ body {
 }
 
 .article-holder {
+    position: relative;
+    top: 104px;
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -179,13 +184,14 @@ body {
 }
 
 article {
-    margin: 0px 0px 70px 0px;
+    margin: 0px 0px 75px 0px;
 }
 
 #footer1 {
     color: white;
     height: 50px;
     width: 100%;
+    left: 0;
     bottom: 0;
     position: fixed;
     margin-top: 20px;
